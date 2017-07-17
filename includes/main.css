@@ -1,0 +1,376 @@
+/*  Page Structure */
+
+body {
+	background-attachment: fixed;
+	background-color: #666;
+	background-image: url(../images/background_grey.jpg);
+	margin: 0;
+	font: normal 1.08em/1.5em Georgia, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+#wrapper {
+	text-align: left;
+	width: 1030px;
+	margin:0 auto;
+	position:relative;
+}
+
+#content {
+	width: 900px;
+	text-align: left;
+	background-image: url(../images/backround.jpg);
+	background-color: #EDEDE1;
+}
+
+#flowers {
+	background-image: url(../images/flowers.gif);
+	position:absolute;
+	top: 0px;
+	left: 900px;
+	height: 100%;
+	width:129px;
+}
+#title_section {
+	clear: both;
+	height: 53px;
+	padding:0 0 15px 18px;
+	position:relative;
+}
+#main_content {
+	width:900px;
+	overflow:auto;
+	background-image: url(../images/rock_general.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#main_left {
+	float:left;
+	width: 551px;
+}
+
+#main_right {
+	float:left;
+	padding-left:8px;
+	width:330px;
+}
+
+#main_left_padding {
+	top: 15px;
+	padding-left: 65px;
+	padding-right: 40px;
+	font: normal 1.1em/1.45em Georgia, "Times New Roman", Times, serif;
+	color:#383838;
+}
+
+.sideImage {
+	padding-top: 35px;
+	padding-left: 22px;
+}
+#footer {
+	clear:both;
+}
+
+#bottom_menu {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#copyright {
+	padding-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+/* end page structure */
+
+
+/* Specific Page stuff */
+
+.links_page ul {
+	padding-left:50px;
+	line-height: 28px;
+	margin-top: 5px;
+}
+.links_page li {
+	list-style:none;
+}
+
+/* end Specific Page stuff */
+
+/* Begin Fonts & Colors */
+
+a:link, a:visited {
+	color: #036;
+}
+a:hover {
+	color: #003;
+}
+p {
+	text-indent: 1.8em;
+	margin-bottom: 1em;
+}
+p.noindent { 
+	text-indent: 0em;
+}
+strong {
+	font-weight:normal;
+	color:#000;
+}
+h1 {
+	color: #333;
+	font: normal 2.1em Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+}
+h1.title {
+	color: #3A3A3A;
+	font: normal 2.1em Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	position:absolute;
+	bottom:0px;
+}
+h2 {
+	font: normal 1.75em Georgia, "Times New Roman", Times, serif;
+	margin:15px 0;
+}
+h3 {
+	font: normal 1.3em Georgia, "Times New Roman", Times, serif;
+	margin: 15px 0;
+	color: #256783;
+}
+h4 {
+	font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+	color: #256783;
+
+}
+.question {
+	font: normal 18px/35px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #FFF;
+	padding: 10px 0 0 30px;
+}
+.question p {
+	text-indent: 0em;
+	margin: 0em;
+}
+.question ul {
+	margin: 0 0 0 20px;
+	padding: 0px;
+}
+.question li { 
+	list-style: none;
+	margin:0px;
+}
+
+.question a {
+	color: #FFF;
+	text-decoration: none;
+}
+.question a:hover{
+	color: #D7EBFF;
+}
+.question .indent { 
+margin-left: 2em;
+}
+
+.border1 {
+	border: 1px solid #CCC;
+	padding: 2px 12px 2px 18px;
+}
+.caption {
+	font-size: 13px;
+	color: #333;
+	line-height: 22px;
+}
+
+/* End Fonts & Colors */
+
+
+/* Begin Form Elements */
+
+#form_box {
+	background-color: #DDD;
+	border-width: 1px 1px 1px 1px;
+	border-color: #CCC;
+	border-style:solid;
+	padding: 10px 12px 10px 18px;
+	margin: 0px 30px 0px 50px;
+}
+#form_box_1 {
+	background-color: #DDD;
+	border-width: 1px 1px 0 1px;
+	border-color: #CCC;
+	border-style:solid;
+	padding: 10px 12px 0px 18px;
+	margin: 0px 30px 0px 50px;
+}
+#form_box_2 {
+	background-color: #E6E6E6;
+	border-width: 0 1px 1px 1px;
+	border-color: #CCC;
+	border-style:solid;
+	padding: 0px 12px 10px 18px;
+	margin: 0px 30px 0px 50px;
+}
+
+#submit {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 4px;
+}
+
+.inputBox {	border: 1px solid #AAA;
+	font-size: 15px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.inputBox2 {	border: 1px solid #AAA;
+	font-size: 13px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* End Form Elements */
+
+
+/* Begin header and main menu */
+
+#header {
+	clear:both;
+	width:900px;
+	height:162px;
+	background-image:url(../images/rock_header.gif);
+	background-position:right top;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#main_menu1, #main_menu2 {
+	position:absolute;
+	width: 580px;
+}
+#main_menu1 ul, #main_menu2 ul {
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+#main_menu1 {
+	top:102px;
+	right:35px;
+}
+#main_menu2 {
+	top:129px;
+	right:28px;
+}
+#main_menu1 li, #main_menu2 li {
+	float:left;
+	list-style:none;
+	display:inline;
+	line-height:15px;
+}
+#main_menu1 li {
+	margin: 0;
+	padding: 0 8px;
+	border-right: solid 1px #CCC;
+}
+#main_menu1 li:last-child { 
+	border: 0px; 
+}
+#main_menu2 li {
+	margin: 0px 3px;
+	padding: 6px 14px 6px;
+	height: 19px;
+}
+#main_menu2 li:hover {
+	padding: 11px 14px 6px;
+}
+#main_menu1 li a, #main_menu2 li a { 
+	text-decoration:none;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:15px;
+}
+#main_menu1 li a { 
+	font-size:15px;
+	}
+#main_menu1 li a:hover { 
+	color: #CCC;
+	}
+#main_menu2 li a { 
+	font-size: 16px;
+	font-weight: 300;
+	}
+#main_menu1 .faq {
+	font-size: 16px;
+	color: #C5EFCC;
+}
+
+/* End header and main menu */
+
+/* Begin footer */
+
+#footer2 {
+    clear:both;
+    background: url(../images/rock_footer.gif) no-repeat bottom left;
+}
+#footer2 h1 {
+    font: normal 1.7em Georgia, "Times New Roman", Times, serif;
+    color:#FFF;
+    margin:0px;
+    padding:35px 15px 12px;
+    clear:both;
+}
+.footer_menu1, .footer_menu2 {
+	clear:both;
+	margin:0;
+	display:block;
+	padding-left: 60px;
+}
+.footer_menu1 ul, .footer_menu2 ul  {
+	margin:0;
+	padding:0;
+}
+.footer_menu1 li, .footer_menu2 li  {
+    float:left;
+    margin: 0 4px;
+    list-style:none;
+    display:inline;
+    padding-bottom:0px;
+    line-height:16px;
+}
+.footer_menu1 li a {
+	text-decoration:none;
+	font: normal 1.20em Verdana, Geneva, sans-serif;
+	color:#F4F4D0;
+}
+.footer_menu2 li a  {
+	text-decoration:none;
+	font: normal 0.82em Verdana, Geneva, sans-serif;
+	color: #C5EFCC;
+}
+.footer_menu1 li a:hover {
+	color:#FFF;
+}
+.footer_menu2 li a:hover {
+	color:#FFF;
+}
+#copyright_info {
+	padding: 4px 0 7px;
+	text-align:right;
+	width:750px;
+	clear:both;
+	font: normal 0.7em/17px Verdana, Geneva, sans-serif;
+	color: #999;
+}
+#copyright_info a {
+	color:#999;
+}
+#copyright_info a:hover {
+	color: #CCC;
+}

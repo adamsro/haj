@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cost {
+	margin: 10px 30px 10px 45px;
+	border: solid 1px #693;
+	padding: 8px;
+	font: normal 1em/1.5em Georgia, "Times New Roman", Times, serif;
+}
+#cost ul {
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+}
+#cost li {
+	margin-bottom:8px;
+}
+#cost p {
+	margin: 5px auto;

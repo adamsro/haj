@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "data_table.css";
+@import "TableTools/media/css/TableTools.css";
+	
+h1.classestitle {
+float:left;
+font-size:2.5em;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#C55A5A;
+margin: 0 0 0 25px;;
+
+}
+input {
+	border: #666 1px solid;
+	padding: 2px;
+	background-color: #EFEFEF;
+}
+.tableFilter {
+	background-color: #333;
+	color:#FFF;
+}
+.bodyMod {
+	background-color: #FFF;
+	background-image:none;
+}
+p {
+	margin:0px;
+}
+
+#instructions {
+	float:right;
+	width: 650px;
+	margin:5px 10px;
+	padding: 5px;
+	border: solid 1px #FC0;
+	background-color:#FFC;
+}
+
+#class_list_wrapper {
+	clear:both;
+	width:880px;
+	margin: 8px 0px 8px 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 0.9em;
+}
+#class_list2 {
+	float: right;
+	width: 670px;
+}
+#filters {
+	float: left;
+	width: 178px;
+	padding: 60px 5px;
+	background:top left no-repeat url(../images/rock_classes.gif);
+}
+#filters h2 {
+	color: #FFF;
+	padding:0 0 0 10px;
+	margin: 0px;
+	font-size: 1.3em;
+}
+
+#classes_head {
+ margin: 45px 20px -48px 0px; 
+ clear:both; 
+ overflow: auto; 	
+}

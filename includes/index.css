@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.homepage {
+    color: #1d4c6f;
+    font: normal 1.8em/1.2em Georgia, "Times New Roman", Times, serif;
+    margin: 16px 0px 6px 20px;
+}
+p {
+    text-indent:25px;
+    margin: 0 auto 15px;
+}
+
+#intro_paragraph {
+    font: normal 1em/1.3em Georgia, "Times New Roman", Times, serif;
+    width: 310px;
+    top: 50px;
+    left: 300px;
+    padding: 10px 0 0 240px;
+    text-indent: -40px;
+    color: #333;
+}
+#slideshow {
+    position:relative;
+    height:173px;
+}
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+#slideshow IMG.active {
+    z-index:10;
+}
+#slideshow IMG.last-active {
+    z-index:9;
+}
+.rock_bk {
+    background-image: url(../images/rock_mainpage.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height:500px;
+    color: #EEEADF;
+}
+.rock_left {
+    width:571px;
+    float:left;
+    display:block;
+}
+.rock_right {
+    float:left;
+    padding-left:8px;
+    width:310px;
+}
+.lower_left {
+    padding: 30px 0 0 60px;
+    width:400px;
+    float:left;
+}
+.lower_right {
+    padding: 30px 35px 0 0;
+    width:350px;
+    float:right;
+}
+#other_stuff {
+    margin:45px 20px 0 15px;
+}
+
+/* Styles for what is haj section */
+
+#what_is {
+    font: normal 1em/1.3em Georgia, "Times New Roman", Times, serif;
+    padding-bottom: 2px;
+}
+
+#what_is h3, #what_is h3 a {
+    font: normal 26px/20px  Georgia, "Times New Roman", Times, serif;
+    margin: 10px auto 16px;
+    color:#6A4E24;
+}
+#what_is blockquote {
+    margin: 0 20px;
+}
+
+
+/* Styles for Upcoming Classes */
+#upcoming {
+    margin: 50px 0 35px 0;
+}
+
+#upcoming  h3, #upcoming  h3 a {
+    color: #4B4B4B;
+    margin:0 0 15px 0;
+    font: normal 26px  Georgia, "Times New Roman", Times, serif;
+}
+
+#upcoming th {
+    font-size:0.9em;
+    border-bottom:solid 1px #333;
+    font-weight:normal;
+}
+#upcoming td {
+    font-size:0.8em;
+    vertical-align:top;
+    font-weight:normal;
+    border-bottom:solid 1px #999;
+}
+
+/*#upcoming table {
+	border-bottom: solid 1px  #666;
+}*/
+
+/* Styles for news section */
+
+#news {
+    font: 1.1em/1.45em Georgia, "Times New Roman", Times, serif;
+    color:#333;
+}
+.news_divider {
+    height:2px;
+    background-color: #AA2626;
+    margin: 0px;
+}
+
+#news a {
+    text-decoration:underline;
+}
+#news h1, #news h2, #news h3, #news h4 {
+    color: #000;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+#news h1 {
+    font: bold 20px/23px Arial, Helvetica, sans-serif;
+    color: #AA2626;
+    margin: 20px auto 0px;
+}
+
+#news h2 {
+    font: normal 1.2em Georgia, "Times New Roman", Times, serif;
+    color:#333;
+    margin: 4px 0 10px 0;
+}
+
+#news h3 {
+    font-size: 1.2em;
+    margin: 10px auto;
+}
+
+#news h4 {
+    font-size: 1em;
+    text-align: right;
+    margin: 10px 0px 0px;
+}
+
+/*  Styles for "Fresh off the blog" */
+
+.why_haj {
+    background-image: url('../images/opacity40-1px-white.png');
+    border: 1px solid white;
+    margin: 0px;
+    padding: 5px;
+}
+.why_haj strong {
+    color: #1d4c6f;
+}
+.why_haj li {
+    margin-bottom: 15px;
+}
+.why_haj h2 {
+    font: normal 1.2em  Georgia, "Times New Roman", Times, serif;
+}
+.page-notify {
+    position: fixed;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 200;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+/*    background-color: #ffbebe;*/
+    background-color: rgba(255,190,190,0.9);
+    border-top: 1px solid #d93232;
+}

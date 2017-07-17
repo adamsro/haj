@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 {
+	color: #333;
+	margin: 50px 0 30px;
+}
+h2:first-child {
+	margin: 20px 0 30px;
+}
+h3 {
+	color: #256783;
+}
+.question h6 {
+	font: normal 1.15em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0 0 7px 0;
+	color:#FFC;
+}
+
+#main_content_faq {
+	width:900px;
+	overflow:auto;
+	background-image: url(../images/rock_faq.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#titleNav_faq {
+	clear: both;
+	height: 56px;
+	padding:0 0 15px 15px;
+	position:relative;
+}
+
+.sideImage_faq {
+	padding-top: 27px;
+	padding-left: 10px;
+}
+.bannerImage_faq {
+	padding-top: 18px;
+	padding-left: 20px;
+}
+#main_left_faq {
+	float:left;
+	width: 595px;
+}
+#main_right_faq {
+	float:left;
+	padding-left:8px;
+	width:3295 px;
+}
+
+#main_left_padding_faq {
+	top: 15px;
+	padding-left: 35px;
+	padding-right: 25px;
+	font: normal 1.1em/1.45em Georgia, "Times New Roman", Times, serif;
+	color:#333;
+}
